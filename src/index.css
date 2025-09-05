@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9fbfc;
+  color: #222;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+input, textarea, select {
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(132, 250, 176, 0.3);
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #3db2ff;
+  border: 2px solid #3db2ff;
+}
+
+.btn-secondary:hover {
+  background-color: #3db2ff;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #e94f37;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #d63a21;
+}
