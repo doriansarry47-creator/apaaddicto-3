@@ -1,4 +1,4 @@
-export const theme = {
+const theme = {
   colors: {
     primary: "#84fab0",
     secondary: "#8fd3f4",
@@ -15,3 +15,5 @@ export const theme = {
   borderRadius: "18px",
   spacing: 16
 };
+
+module.exports = { theme };
